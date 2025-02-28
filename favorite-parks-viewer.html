@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>HW-4 - Favorite Parks Viewer</title>
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=yes">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+	<script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script>
+	<link href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/default-styles.css">
+</head>
+<body>
+  <header class="hero is-small is-info is-bold p-2">
+    <div class="hero-body">
+      <h1 class="title">Favorite Parks Viewer</h1>
+      <h2 class="subtitle">See which parks are the most popular!</h2>
+    </div>
+  </header> 
+	<div>
+        <div class="hero-body has-background-info mt-2 mb-2">
+            <h2 class="subtitle is-underlined">VIEW PARK POPULARITY</h2>
+            <ol id="park-popularity" class="ml-4"></ol>
+        </div>
+    </div>
+	<div class="footer has-background-info has-text-centered has-text-light p-1">&copy; 2024 Kristin Yap</div>
+
+    <script src="./src/park-viewer.js" type="module"></script>
+</body>
+</html>
